@@ -1,10 +1,5 @@
 //META{"name":"Megumin-Shinano","description":"Megumin Theme","author":"SHinano","version":"0.0.1"}*//
 
-@font-face {
-    font-family: "GROBOLD";
-    src: url(www.kntai-clan.com/GROBOLD.ttf) format("truetype");
-}
-
 .app { background-image: url(https://i.imgur.com/qrDNJd1.jpg) !important; background-size: cover !important; }
 
 #app-mount,
@@ -187,13 +182,6 @@
 .theme-dark .connectedAccount-3mKaTA {
    background: #564343  !important;
    border: 3px solid rgba(255,255,255,0.5);
-}
-
-body {
-	font-family: "GROBOLD";
-  -webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-	text-size-adjust: 100%;
 }
 
 .message-group .comment .markup pre code, /* Multi Line Code Block */
